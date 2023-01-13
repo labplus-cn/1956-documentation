@@ -11,7 +11,7 @@
 下载固件
 ------------
 
-* :download:`tina-r329-20230105 </_static/firmware/r329-20230105.img>`
+* :download:`tina-r329-20230105 <https://steamaker.oss-cn-shenzhen.aliyuncs.com/1956/r329-20230105.img>`
 
 USB线准备
 ------------
