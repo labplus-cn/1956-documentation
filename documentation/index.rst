@@ -14,7 +14,7 @@
    .. tutorials/advance/index
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: 一、1956硬件介绍 
     :titlesonly:
     :numbered: 
@@ -25,9 +25,8 @@
     hardware_introduction/4_system_framework_diagram.rst
     hardware_introduction/5_hardware_parameters.rst
     hardware_introduction/6_pin_function.rst
-    hardware_introduction/7_sensor.rst
     hardware_introduction/8_firmware.rst
-    hardware_introduction/10_size.rst
+    .. hardware_introduction/10_size.rst
 
 .. toctree::
     :maxdepth: 2
@@ -58,8 +57,14 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: 五、应用
-    案例
+    :caption: 四、教程
+
+    example/1_sensor
+    example/2_io
+
+.. toctree::
+    :maxdepth: 2
+    :caption: 五、
     
 
 .. 这是二级目录树的使用范例

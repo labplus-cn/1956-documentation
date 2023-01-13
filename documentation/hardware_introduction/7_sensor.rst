@@ -8,7 +8,7 @@
 
     from labplus import *
 
-    accelerometer.set_range(MOTION.Accelerometer.RANGE_4G)
+    accelerometer.set_range(MOTION.Accelerometer.RANGE_8G)
 
     while 1:
         x = accelerometer.get_x()
@@ -27,8 +27,28 @@
 
 磁传感器
 --------
+例程::
 
+    from labplus import *
+
+    magnetic.calibrate()
+    while (1):
+        time.sleep(1)
+        head = magnetic.get_heading()
+        print("head:",h)
+        print('=====')
 
 
 气压计
 --------
+例程::
+
+    from labplus import *
+
+    while True:
+        pressure = barometric.pressure()
+        temperature = barometric.temperature()
+        print("pressure:",pressure)
+        print("temperature:",temperature)
+        print("=======")
+        time.sleep(1)
