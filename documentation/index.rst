@@ -26,7 +26,6 @@
     hardware_introduction/5_hardware_parameters.rst
     hardware_introduction/6_pin_function.rst
     hardware_introduction/8_firmware.rst
-    .. hardware_introduction/10_size.rst
 
 .. toctree::
     :maxdepth: 2
