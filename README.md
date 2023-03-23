@@ -4,16 +4,17 @@
 https://1956-docs.readthedocs.io/zh/latest/index.html
 
 
-## 编译
-
-本地编译方法:
-
-    pip3 install -r requirements.txt
+## 编译步骤
 
     git clone https://github.com/labplus-cn/1956-documentation.git
 
-    cd documentation
+python3环境安装依赖库
 
+    pip3 install -r requirements.txt
+
+本地编译
+
+    cd documentation
     make html
 
 如果成功，构建的文件将位于其中documentation/_build 文件夹，
@@ -35,5 +36,5 @@ tutorials 教程
 
 _build 编译文件目录
 
-## readthedocs文档管理
+## readthedocs在线文档管理
 https://readthedocs.org/projects/1956-docs/
