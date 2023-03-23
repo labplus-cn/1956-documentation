@@ -6,5 +6,6 @@
    :titlesonly:
    :numbered:
    
-   example/1_sensor
-   example/2_io
+   1_sensor
+   2_io
+   3_ledong

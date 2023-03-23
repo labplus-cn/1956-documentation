@@ -7,17 +7,14 @@
 
 GUI
 ======================================================
-.. toctree::
-   :maxdepth: 2
-   :caption: GUI
-   :titlesonly:
-   :numbered:
-   
    widgets/acr
    widgets/bar
-.. 
-..    base-syntax
-..    cross-reference
-..    code-highlight
-..    pic-video
-..    admonition
+   
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: GUI
+..    :titlesonly:
+..    :numbered:
+   
+..    widgets/acr
+..    widgets/bar
