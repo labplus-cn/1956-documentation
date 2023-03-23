@@ -5,13 +5,6 @@
 ======================================================
 
 .. .. toctree::
-..    :maxdepth: 3
-..    :caption: 教程
-..    :titlesonly:
-..    :numbered: 
-
-   .. tutorials/basics/index
-   .. tutorials/advance/index
 
 .. toctree::
     :maxdepth: 3
