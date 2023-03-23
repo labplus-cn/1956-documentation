@@ -14,7 +14,8 @@ https://1956-docs.readthedocs.io/zh/latest/index.html
 
     make html
 
-如果成功，构建的HTML文件将位于其中documentation\_build 文件夹
+如果成功，构建的HTML文件将位于其中documentation/_build 文件夹，
+HTML 页面保存在 _build/html 目录。
 
 ## 文件结构
 
