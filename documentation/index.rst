@@ -49,14 +49,17 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: 四、教程
+    :caption: 四、示例
 
     example/1_sensor
     example/2_io
 
 .. toctree::
     :maxdepth: 2
-    :caption: 五、
+    :caption: 五、教程
+
+    tutorials/index
+
     
 .. 这是二级目录树的使用范例
 

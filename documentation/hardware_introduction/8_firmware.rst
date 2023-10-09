@@ -1,77 +1,59 @@
-烧录系统固件
-==============
+mPython烧录系统固件（支持Win平台）
+================================
+打开mPyhton软件，硬件模式-设置-切换至“1956”模式
 
-下载烧录工具
-------------
-
-下载全志烧录工具，并解压到一个目录
-
-* :download:`PhoenixSuit </_static/tools/PhoenixSuit-v1.10.rar>`
-
-下载固件
-------------
-
-* :download:`tina-r329-20230105 <https://steamaker.oss-cn-shenzhen.aliyuncs.com/1956/r329-20230105.img>`
-
-USB线准备
-------------
-一根type-c，一根双头USB-A
-将1956用两根线连接电脑
-
-.. figure:: /_static/image/firmware_tutorial/jx4.png
+.. figure:: /_static/image/firmware_tutorial/1956.png
     :align: center
-    :width: 800
+    :width: 1000
 
-安装驱动
-------------
-（1）点击我的电脑
-++++++++
+`mPython下载链接 <https://labplus.cn/software>`_
 
-（2）设备管理
-++++++++
+将1956连接至电脑
+-------------------
+准备一根Type-C，一根双头USB-A
+将1956用两根线数据线连接电脑
+
+.. figure:: /_static/image/firmware_tutorial/link.jpg
+    :align: center
+    :width: 600
 
 .. figure:: /_static/image/firmware_tutorial/jx1.png
     :align: center
-    :width: 300
+    :width: 800
+
+打开烧录工具
+------------------
+选择设置-烧录固件，打开烧录工具
 
 .. figure:: /_static/image/firmware_tutorial/jx2.png
     :align: center
+    :width: 500
+
+
+上传固件
+-----------
+1、选择对应串口
+
+.. figure:: /_static/image/firmware_tutorial/jx6.png
+    :align: center
     :width: 800
+
+2、选择官网下载，将固件下载到本地或者选择本地固件文件
 
 .. figure:: /_static/image/firmware_tutorial/jx3.png
     :align: center
     :width: 800
 
+3、上传固件，选择格式化升级
 
-使设备进入刷机模式
-------------
-
-打开PhoenixSuit，选择对应系统固件
-++++++++
-
-.. figure:: /_static/image/firmware_tutorial/jx6.png
+.. figure:: /_static/image/firmware_tutorial/jx4.png
     :align: center
-    :width: 1400
+    :width: 800
+
+等待烧录完成
 
 .. figure:: /_static/image/firmware_tutorial/jx5.png
     :align: center
-    :width: 1400
-
-在linux终端输入reboot后，不断回车打断 在出现=>后输入efex
-++++++++
-
-.. figure:: /_static/image/firmware_tutorial/jx7.png
-    :align: center
-    :width: 1400
+    :width: 800
 
 
-等待烧录完成
-++++++++
-
-.. figure:: /_static/image/firmware_tutorial/jx8.png
-    :align: center
-    :width: 1400
-
-.. figure:: /_static/image/firmware_tutorial/jx9.png
-    :align: center
-    :width: 1000
