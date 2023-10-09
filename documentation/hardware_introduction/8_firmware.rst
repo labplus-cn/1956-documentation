@@ -15,7 +15,7 @@ mPython烧录系统固件（支持Win平台）
 
 .. figure:: /_static/image/firmware_tutorial/link.jpg
     :align: center
-    :width: 600
+    :width: 500
 
 .. figure:: /_static/image/firmware_tutorial/jx1.png
     :align: center
@@ -32,9 +32,13 @@ mPython烧录系统固件（支持Win平台）
 
 上传固件
 -----------
-1、选择对应串口
+1、选择对应串口，打开串口
 
 .. figure:: /_static/image/firmware_tutorial/jx6.png
+    :align: center
+    :width: 800
+
+.. figure:: /_static/image/firmware_tutorial/jx6-1.png
     :align: center
     :width: 800
 
@@ -44,7 +48,7 @@ mPython烧录系统固件（支持Win平台）
     :align: center
     :width: 800
 
-3、上传固件，选择格式化升级
+3、上传固件，选择Yes格式化升级
 
 .. figure:: /_static/image/firmware_tutorial/jx4.png
     :align: center
