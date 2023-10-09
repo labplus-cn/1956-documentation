@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = '1956'
-copyright = '2022, 深圳盛思科教文化有限公司 www.labplus.cn '
+copyright = '2023, 深圳盛思科教文化有限公司 www.labplus.cn'
 author = '深圳盛思科教文化有限公司'
 
 
